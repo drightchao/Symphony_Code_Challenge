@@ -5,9 +5,31 @@ body {
     width:100%;
 }
 
-#header{
-    position: relative;
-    padding-top: 5px;
+.brand{
+    font-weight: bold;
+    text-align: center;
+}
+
+.menu{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#items{
+    padding-left: 150px;
+}
+
+#number-items {
+    background-color: lightgrey;
+}
+
+#left-header{
+    background-color: whitesmoke;
+}
+
+#right-header{
+    background-color: whitesmoke;
 }
 
 #carousel{

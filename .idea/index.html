@@ -11,33 +11,25 @@
 </head>
 <body>
 <div class="container">
-    <div class="row" id="header">
-        <div class="col-md-10" style="background-color: whitesmoke"><span><img src="assets/truck.png" /> FREE SHIPPING ON ALL ORDERS WORLD WIDE!</span></div>
-        <div class="col-md-2" style="background-color: whitesmoke">ACCOUNT<span class="caret"></span></div>
+    <div class="row">
+        <div class="col-md-10" id="left-header"><span><img src="assets/truck.png" /> FREE SHIPPING ON ALL ORDERS WORLD WIDE!</span></div>
+        <div class="col-md-2" id="right-header">ACCOUNT<span class="caret"></span></div>
     </div>
-    <br />
 
-    <nav class="navbar navbar-default">
-        <!--logo-->
-        <div class="navbar-header">
-            <a href="#" class="navbar-brand">BRAND</a>
-        </div>
-        <div class="container-fluid">
-            <!--Menu Items-->
-            <div>
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">SHOP</a></li>
-                    <li><a href="#">OUR STORY</a></li>
-                    <li><a href="#">BLOG</a></li>
-                    <li><a href="#">HELP</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                    <li><a href="#"><img src="assets/bag.png" />(2)ITEMS IN THIS BAG</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <table>
+        <tbody>
+            <tr align="center">
+                <td class="brand"><h2>BRAND</h2></td>
+                <td class="menu"><p>SHOP</p></td>
+                <td class="menu"><p>OUR STORY</p></td>
+                <td class="menu"><p>BLOG</p></td>
+                <td class="menu"><p>HELP</p></td>
+                <td class="menu"><p>CONTACT</p></td>
+                <td colspan="6" class="menu" id="items"><div><img src="assets/bag.png" /><span id="number-items"> (2) ITEMS IN THIS BAG</span></div></td>
+            </tr>
+        </tbody>
+    </table>
 
-    <br />
 
     <div id="carousel">
         <div id="left-btn"><img src="assets/arrow-left.png" /></div>
