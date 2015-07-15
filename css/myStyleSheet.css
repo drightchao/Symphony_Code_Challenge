@@ -1,0 +1,58 @@
+#carousel{
+    position:relative;
+    height:300px;
+    width: 940px;
+    background-color: whitesmoke;
+}
+#left-btn{
+    position: relative;
+    float: left;
+    margin-top: 100px;
+}
+
+#right-btn{
+    position: relative;
+    float: right;
+    margin-top: 100px;
+}
+
+#promotion{
+    color: white;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.display{
+    position:relative;
+    height:200px;
+    width: 250px;
+    background-color: whitesmoke;
+}
+
+.learn-more{
+    width:100px;
+    height:20px;
+    background-color: black;
+    text-decoration-color: white;
+    text-align: center;
+}
+
+.info{
+    text-align: center;
+}
+
+.details{
+    text-align: center;
+}
+
+#table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#blank-area{
+    position:relative;
+    height:300px;
+    width: 940px;
+    background-color: whitesmoke;
+}
