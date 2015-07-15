@@ -16,12 +16,13 @@
         <div class="col-md-2" style="background-color: whitesmoke">ACCOUNT<span class="caret"></span></div>
     </div>
     <br />
+
     <nav class="navbar navbar-default">
+        <!--logo-->
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand">BRAND</a>
+        </div>
         <div class="container-fluid">
-            <!--logo-->
-            <div class="navbar-header">
-                <a href="#" class="navbar-brand">BRAND</a>
-            </div>
             <!--Menu Items-->
             <div>
                 <ul class="nav navbar-nav">
@@ -35,6 +36,7 @@
             </div>
         </div>
     </nav>
+
     <br />
 
     <div id="carousel">
@@ -42,17 +44,16 @@
         <div id="right-btn"><img src="assets/arrow-right.png" /></div>
     </div>
 
-    <div class="row">
-        <div class="col-md-12" style="background-color: orangered"><p id="promotion">PROMOTION</p></div>
-    </div>
+    <div id="promo"><p id="promotion">PROMOTION</p></div>
+
     <br />
 
-    <table id="table" align="center">
+    <table id="table">
         <tbody>
             <tr>
-                <td><div class="display"></div></td>
-                <td><div class="display"></div></td>
-                <td><div class="display"></div></td>
+                <td align="center"><div class="display"></div></td>
+                <td align="center"><div class="display"></div></td>
+                <td align="center"><div class="display"></div></td>
             </tr>
             <tr>
                 <td><p class="info" style="font-weight: bold">INFO</p></td>
@@ -65,9 +66,9 @@
                 <td><p class="details">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euidmod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p></td>
             </tr>
             <tr>
-                <td><div class="learn-more">Learn More</div></td>
-                <td><div class="learn-more">Learn More</div></td>
-                <td><div class="learn-more">Learn More</div></td>
+                <td align="center"><div class="learn-more">Learn More</div></td>
+                <td align="center"><div class="learn-more">Learn More</div></td>
+                <td align="center"><div class="learn-more">Learn More</div></td>
             </tr>
         </tbody>
     </table>
@@ -78,53 +79,59 @@
 
     <br />
 
-    <div class="footer-title">
-        <p><span style="color: orangered">LIKE US</span> ON FACEBOOK FOR EXCLUSIVE OFFERS AND UPDATES</p>
-    </div>
-
-    <table id="footer">
+    <table id="footer" align="center" cellspacing="100">
+        <thead align="center">
+            <div class="footer-title">
+                <p><span style="color: orangered">LIKE US</span> ON FACEBOOK FOR EXCLUSIVE OFFERS AND UPDATES</p>
+            </div>
+        <br />
+        </thead>
         <tbody>
             <tr>
-                <td style="font-weight: bold">About Us</td>
-                <td style="font-weight: bold">Need Help?</td>
-                <td style="font-weight: bold">Why US?</td>
-                <td style="font-weight: bold">Stay Connected</td>
+                <td class="table-index">About Us</td>
+                <td class="table-index">Need Help?</td>
+                <td class="table-index">Why US?</td>
+                <td class="table-index">Stay Connected</td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Shipping & Delivery</p>
+                    <p>Payments & Pricing</p>
+                    <p>Refund Policy</p>
+                    <p>Exchange Policy</p>
+                    <p>Contact Us</p>
+                </td>
+
+                <td>
+                    <p>Our Story</p>
+                    <p>Reviews</p>
+                    <p>Testimonials</p>
+                    <p>Terms of Use</p>
+                    <p>Videos</p>
+                </td>
+
+                <td>
+                    <p>Shipping & Delivery</p>
+                    <p>Payments & Pricing</p>
+                    <p>Refund Policy</p>
+                    <p>Exchange Policy</p>
+                    <p>Contact Us</p>
+                </td>
+
+                <td>
+                    <form id="tfnewsearch">
+                        <input type="text" class="tftextinput" name="q" size="21" maxlength="120" placeholder="example@gmail.com"><input type="submit" value="GO" class="tfbutton">
+                    </form>
+                    <div>
+                        <a class="social" href="#"><img src="assets/twitter.png"></a>
+                        <a class="social" href="#"><img src="assets/facebook.png"></a>
+                        <a class="social" href="#"><img src="assets/pinterest.png"></a>
+                        <a class="social" href="#"><img src="assets/youtube.png"></a>
+                    </div>
+
+                </td>
             </tr>
 
-            <tr>
-                <td><p>Shipping & Delivery</p></td>
-                <td><p>Our Story</p></td>
-                <td><p>Shipping & Delivery</p></td>
-                <td><p></p></td>
-            </tr>
-
-            <tr>
-                <td><p>Shipping & Delivery</p></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-
-            <tr>
-                <td><p>Shipping & Delivery</p></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-
-            <tr>
-                <td><p>Shipping & Delivery</p></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-
-            <tr>
-                <td><p>Shipping & Delivery</p></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
         </tbody>
     </table>
 

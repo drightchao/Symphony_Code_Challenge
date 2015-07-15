@@ -1,3 +1,10 @@
+body {
+    background-color: white;
+    margin:auto;
+    padding:auto;
+    width:100%;
+}
+
 #header{
     position: relative;
     padding-top: 5px;
@@ -6,7 +13,7 @@
 #carousel{
     position:relative;
     height:300px;
-    width: 940px;
+    width: 100%;
     background-color: whitesmoke;
 }
 #left-btn{
@@ -21,12 +28,19 @@
     margin-top: 100px;
 }
 
+#promo{
+    background-color: orangered;
+    width:100%;
+    height: auto;
+}
+
 #promotion{
     color: white;
     text-align: center;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     position: relative;
-    padding-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .display{
@@ -58,17 +72,24 @@
     margin-right: auto;
 }
 
+table tr td{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+}
+
 #blank-area{
     position:relative;
     height:300px;
-    width: 940px;
+    width: 100%;
     background-color: whitesmoke;
 }
 
 .footer-title {
-    position:relative;
+    position: relative;
     height:50px;
-    width: 940px;
+    width: 70%;
+    margin: auto;
     background-color: whitesmoke;
     text-align: center;
 }
@@ -76,4 +97,55 @@
 .footer-title p {
     position: relative;
     padding-top: 15px;
+    font-weight: bold;
+}
+
+#footer {
+    position: relative;
+
+}
+
+.table-index{
+    font-weight: bold;
+}
+
+.social{
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+#tfheader{
+    background-color:orangered;
+}
+#tfnewsearch{
+    float: left;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 20px;
+}
+.tftextinput{
+    margin: 0;
+    padding: 5px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+    border:1px solid gray; border-right:0px;
+    border-top-left-radius: 5px 5px;
+    border-bottom-left-radius: 5px 5px;
+}
+.tfbutton {
+    margin: 0;
+    padding: 5px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border: solid 1px orangered; border-right:0px;
+    background: orangered;
+    background: -webkit-gradient(linear, left top, left bottom, from(orangered), to(orangered));
+    background: -moz-linear-gradient(top,  orangered,  orangered);
+    border-top-right-radius: 5px 5px;
+    border-bottom-right-radius: 5px 5px;
 }
